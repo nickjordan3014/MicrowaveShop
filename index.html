@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microwave Shop</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Captain's Microwave Shop</h1>
+    <form action="ShoppingCart.php" method="POST">
+
+        <label for="Old School Microwave" class="itemLabels">Old School Microwave $100</label><br>
+        <!--https://www.pngkit.com/bigpic/u2q8t4q8o0r5q8q8/-->
+        <img src="img/oldschool.png" alt="Old School Microwave" class="microwaveImg"><br>
+        <span>
+            Add Item(s) to Cart
+            <input type="number" value="0" name="oldSchool" class="numberBox" id="oldSchool">
+        </span><br><br>
+
+        <label for="Normal Microwave" class="itemLabels">Normal Microwave $200</label><br>
+        <!--https://m.media-amazon.com/images/I/71NKYAMHlPL._AC_SS450_.jpg-->
+        <img src="img/normal.jpg" alt="Normal Microwave" class="microwaveImg"><br>
+        <span>
+            Add Item(s) to Cart
+            <input type="number" value="0" name="normal" class="numberBox" id="normal">
+        </span><br><br>
+
+        <label for="Smart Microwave" class="itemLabels">Smart Microwave $400</label><br>
+        <!--https://www.lifewire.com/thmb/q4Rpnc_Y_c7Ds8xxTVHvmiBoroY=/1203x923/filters:fill(auto,1)/SmartMicrowave-5aa005faae9ab800375d63c1.jpg-->
+        <img src="img/smart.jpg" alt="Smart Microwave" class="microwaveImg"><br>
+        <span>
+            Add Item(s) to Cart
+            <input type="number" value="0" name="smart" class="numberBox" id="smart">
+        </span><br>
+        
+        <div class="submitButton">
+            <button type="submit">
+                <!--https://www.nicepng.com/ourpic/u2w7t4i1e6i1a9w7_png-file-shopping-cart-line-icon/-->
+                <img src="img/shoppingCart.png" alt="Shopping Cart" class="cartImg">
+            </button>
+        </div>
+    </form>
+</body>
+</html>
