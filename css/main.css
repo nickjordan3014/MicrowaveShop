@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.itemLabels {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.itemButtons {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.microwaveImg {
+    margin: 10px;
+    width: 400px;
+    border: violet 3px ridge;
+}
+
+.cartImg {
+    width: 50px;
+}
+
+.numberBox {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.submitButton {
+    margin: 30px;
+}
